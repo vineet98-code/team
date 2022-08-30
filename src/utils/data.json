@@ -1,42 +1,18 @@
 [
     {
       "id": 1,
-      "Name": "Jenny Chan",
-      "Company": "3 waterfoot road",
-      "Status": "Active",
-      "LastUpdated": "7/06/2017",
-      "Notes": " Most match played"
+      "name": "Jenny Chan",
+      "company": "3 waterfoot road",
+      "status": "Active",
+      "lastUpdated": "7/06/2017",
+      "notes": " Most match played"
     },
     {
       "id": 2,
-      "Name": "Jessica warren",
-      "Company": "4 tall town",
-      "Status": "Closed",
-      "LastUpdated": "7/06/2017",
-      "Notes": "Highest score"
-    },
-    {
-      "id": 3,
-      "Name": "Tony Frank",
-      "Company": "11 lesly road",
-      "Status": "Active",
-      "LastUpdated": "7/06/2017",
-      "Notes": "Play a basketball"
-    },
-    {
-      "id": 4,
-      "Name": "Jeremy Clark",
-      "Company": "333 miltown manor",
-      "Status": "Closed",
-      "LastUpdated": "7/06/2017",
-      "Notes": "i am zinet"
-    },
-    {
-      "id": 5,
-      "Name": "Raymond Edwards",
-      "Company": "99 blue acres",
-      "Status": "Closed",
-      "LastUpdated": "7/06/20176",
-      "Notes": "Have you played"
+      "name": "Jessica warren",
+      "company": "4 tall town",
+      "status": "Closed",
+      "lastUpdated": "7/06/2017",
+      "notes": "Highest score"
     }
   ]

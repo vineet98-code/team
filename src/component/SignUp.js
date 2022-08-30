@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import Validate from '../utils/Validate';
 
-const SignUp = () => {
+const SignUp = (props) => {
 
   const [credential, setCredential] = useState({
     username: 'username12',
@@ -29,6 +29,7 @@ const SignUp = () => {
     let { username, email, password} = credential;
     if (username === 'username12' && email === "username12@gmail.com" && password === 'username12') {
         setCredential({ signup: true })
+        props.history.push('/login');
     }
   };
 
@@ -64,4 +65,4 @@ const SignUp = () => {
 
 
 
-export default SignUp
+export default withRouter(SignUp);

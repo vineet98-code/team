@@ -3,9 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 export default function Header(props) {
 //   let token = localStorage.getItem("token")
-
-
-  return (
+return (
     <header className="px-40 flex justify-between items-center">
       <button className="text-primary font-bold text-2xl py-3">
         <Link to="#">Add Member</Link>
